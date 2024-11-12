@@ -1,0 +1,76 @@
+.auction-app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auction-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bid-info {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; /* Adds space below the Current Bid section */
+}
+
+.current-bid {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.bid-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.bid-button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bid-button:hover {
+  background-color: #2980b9;
+}
+
+.auction-container {
+  display: flex;
+  gap: 20px;
+}
+
+.log-container, .notifications-container {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.log-list, .notifications-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.log-item, .notification-item {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.log-item:last-child, .notification-item:last-child {
+  border-bottom: none;
+}
